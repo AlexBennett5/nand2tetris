@@ -97,6 +97,7 @@ public class AssembleLogic {
                 parse.advance();     
         }
         
+        //Last line
         if (parse.commandType() == Parser.Command.C_COMMAND) {
             dest = parse.dest();
             comp = parse.comp();
